@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { LuPlus } from "react-icons/lu";
+import CustomLineChart from "../Charts/CustomLineChart";
 import CustomBarChart from "../Charts/CustomBarChart";
 import { prepareIncomeBarChartData } from '../../utils/helper';
 
@@ -29,7 +30,7 @@ const IncomeOverview = ({transactions, onAddIncome}) => {
         </div>
       
         <div className="mt-10">
-            <CustomBarChart data={chartData} />
+            <CustomLineChart data={chartData} />
         </div>
       </div>
     );
