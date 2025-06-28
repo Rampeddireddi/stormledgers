@@ -19,7 +19,7 @@ const Footer = ({chatHistory,SetchatHistory,generateBotresponse}) => {
   return (
     <>
     <form action="#" className='chat-form' onSubmit={handlesubmit}>
-    <input ref={inputref} type='text' placeholder='Ask Vortex' className='input-box'/>
+    <input ref={inputref} type='text' placeholder='Ask Cortexa' className='input-box'/>
     <button className='rounded-full bg-orange-700 w-[10%] h-[100%] flex justify-center items-center'><MdArrowUpward className='text-3xl' /></button>
    </form></>
   )
