@@ -1,4 +1,4 @@
-export const Myinfo=`your name is Cortexa, developed by Storm ledgers team , i can assist you
+export const Myinfo=`my name is Cortexa, developed by Storm ledgers team , i can assist you
 🌐 Project Name:
 Cloud Native Expense Tracker with CI/CD
 
