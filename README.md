@@ -2,6 +2,8 @@
 
 A modern full-stack **Expense Tracker** web application that helps users manage and visualize their income and expenses effectively.
 
+🔗 **Live Demo**: [https://stormledgers-nine.vercel.app/](https://stormledgers-nine.vercel.app/)
+
 Built using:
 - 🧠 **React.js** (Frontend)
 - 🎨 **Tailwind CSS** (UI Styling)
