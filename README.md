@@ -1,16 +1,61 @@
-<<<<<<< HEAD
-# Expense-Tracker-Frontend
-=======
-# React + Vite
+# 💸 Expense Tracker - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack **Expense Tracker** web application that helps users manage and visualize their income and expenses effectively.
 
-Currently, two official plugins are available:
+Built using:
+- 🧠 **React.js** (Frontend)
+- 🎨 **Tailwind CSS** (UI Styling)
+- 🌐 **Node.js + Express.js** (Backend)
+- 🗄️ **MongoDB** (Database)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> master
+### 🧾 Income & Expense Management
+- Add and delete **Income** and **Expense** entries.
+- Each entry includes:
+  - 📅 Date
+  - 📝 Source
+  - 💰 Amount
+  - 🧿 Icon
+
+### 📊 Dashboard Overview
+- Displays:
+  - ✅ Total Income
+  - ❌ Total Expense
+  - 🧮 Current Balance
+- **Pie Charts** for:
+  - Balance distribution
+  - Expense breakdown
+  - Income sources
+
+### 📈 Visual Analytics
+- **Area Graphs** to visualize trends over time for both income and expenses.
+
+### 📬 Alerts & Notifications
+- Sends **Low Balance Alerts via Email** to help users stay on top of their finances.
+
+### 🤖 Chatbot Assistant
+- Built-in **Chatbot** to guide users on how to use the Expense Tracker.
+
+### 🔄 Separation
+- Separate views for:
+  - Income
+  - Expense
+- Helps with focused tracking and management.
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech        | Description                    |
+|-------------|--------------------------------|
+| React.js    | Frontend framework             |
+| Tailwind CSS| Utility-first CSS styling      |
+| Node.js     | Backend runtime environment    |
+| Express.js  | Web framework for Node.js      |
+| MongoDB     | NoSQL database for data storage|
+
+---
+
